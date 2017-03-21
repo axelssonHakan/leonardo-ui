@@ -8,6 +8,11 @@ const config = extend(true, baseConfig, {
   capabilities: {
     browserName: 'chrome',
     name: 'Chrome dev'
+  },
+  mochaOpts: {
+    reporterOptions: {
+      html: true
+    }
   }
 });
 
